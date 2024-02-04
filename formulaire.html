@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <form action="" method="">
+        <div class="card">
+            <div class="card-header">
+                <h3>Inscription</h3>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" id="nom">
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prenom</label>
+                    <input type="text" name="prenom" id="prenom">
+                </div>
+                <div class="form-group">
+                    <label for="matricule">Matricule</label>
+                    <input type="text" name="matricule" id="matricule">
+                </div>
+                <div class="form-group">
+                    <label for="filiere">Filiere</label>
+                    <select name="filiere" id="filiere">
+                        <option value=""></option>
+                        <option value="Genie-Informatique">GI</option>
+                        <option value="Comptabilite-finance-Audit">CFA</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="dateNaissance">Date de naissance</label>
+                    <input type="date" id="dateNaissance">
+                </div>
+
+                <div class="form-group genreNiveau">
+                    <div class="genre">
+                        <label for="">Sexe</label>
+                        <span><input type="radio" id="">Masculin</span>
+                        <span><input type="radio" id="">Feminin</span>
+                    </div> <hr>
+                    <div class="niveau">
+                        <label for="">Niveau</label>
+                        <span><input type="checkbox" id=""> L1</span>
+                        <span><input type="checkbox" id=""> L2</span>
+                        <span><input type="checkbox" id=""> L3</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="card-footer">
+                    <button type="submit" name="valider">Valider</button>
+                </div>
+            </div>
+    </form>
+</body>
+
+</html>
